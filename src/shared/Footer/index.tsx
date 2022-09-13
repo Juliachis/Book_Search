@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer>
       <div className={style.container}>
-        <p className={style.footer_text}>Search your favourite IT books with Google Books</p>
+        <p className={style.footer_text}>Search your favourite books with Google Books</p>
       </div>
     </footer>
   );

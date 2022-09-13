@@ -19,7 +19,7 @@ const BooksSearch: FC<IProps> = ({ onChange, keyPressed }) => {
     <div className={style.form}>
       <input
         type="text"
-        placeholder="Search"
+        placeholder="Enter search terms"
         onChange={handleInputChange}
         onKeyPress={handleKeyPressed}
         className={style.search_input}

@@ -3,7 +3,7 @@ export interface IVolumeInfo {
   authors: string[];
   publisher?: string;
   publishedDate?: string;
-  description?: string;
+  description: string;
   industryIdentifiers?: [
     {
       type: string;
@@ -29,7 +29,7 @@ export interface IVolumeInfo {
     thumbnail: string;
   };
   language?: string;
-  previewLink?: string;
+  previewLink: string;
   infoLink?: string;
   canonicalVolumeLink?: string;
 }

@@ -3,7 +3,6 @@ import axios from 'axios';
 import { useDispatch, useSelector } from 'react-redux';
 import { getBooksData } from 'store/pages/SearchPage/selectors';
 import { setBooksDataAction } from 'store/pages/SearchPage/actions';
-import { IBooksInfo } from 'interfaces/IBooksInfo';
 import BooksSearch from './components/BooksSearch';
 import SearchPageComponent from './components/SearchPageComponent';
 
@@ -12,7 +11,6 @@ const SearchPage = () => {
   const booksData = useSelector(getBooksData);
 
   const [searchValue, setSearchValue] = useState('');
-  // const [booksData, setBooksData] = useState<IBooksInfo[] | null>(null);
 
   const handleInputChange = (value: React.SetStateAction<string>) => {
     setSearchValue(value);

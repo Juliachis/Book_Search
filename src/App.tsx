@@ -1,4 +1,3 @@
-import BookPage from 'entities/BookPage';
 import SearchPage from 'entities/SearchPage';
 import PageLayout from 'layouts/MainLayout';
 import React from 'react';
@@ -10,7 +9,6 @@ const App = () => {
     <PageLayout>
       <Routes>
         <Route path="/" element={<SearchPage />} />
-        <Route path="book_page" element={<BookPage />} />
       </Routes>
     </PageLayout>
   );
