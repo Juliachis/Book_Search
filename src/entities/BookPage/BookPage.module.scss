@@ -1,0 +1,19 @@
+.box_wrapper {
+  width: 70%;
+}
+
+.box_header_wrapper {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.book_title {
+  font-size: 20px;
+}
+
+.book_author {
+  color: #757575;
+  font-size: 14px;
+}
