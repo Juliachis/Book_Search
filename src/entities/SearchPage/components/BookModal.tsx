@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { Link } from 'react-router-dom';
+
 import style from '../SearchPage.module.scss';
 
 interface IProps {
@@ -22,7 +22,7 @@ const BookModal: FC<IProps> = ({ onClose, title, author, image, link, descriptio
         <div className={style.book_info}>
           <p className={style.book_title}>{title}</p>
           <p className={style.book_author}>{author}</p>
-          <Link to={link}> More </Link>
+          <a href={link}> More </a>
         </div>
       </div>
       <p className={style.book_description}>{description}</p>
